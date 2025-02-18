@@ -3,7 +3,7 @@
 ## **Project Description**
 This project applies **Linear Regression** and **Multiple Linear Regression** techniques using Python to analyze two datasets:
 1. **Iris Dataset:** A simple linear regression model is built using petal length as the independent variable and petal width as the dependent variable.
-2. **Insurance Dataset:** A multiple linear regression model is applied to predict medical charges based on various features such as age, BMI, and smoking status.
+2. **Insurance Dataset:** A multiple linear regression model is applied to predict medical charges based on various features such as sex, region, and smoking status.
 
 The project leverages **Seaborn, Matplotlib, Scikit-Learn, NumPy, and Pandas** for data analysis, visualization, and modeling.
 
@@ -75,7 +75,7 @@ python insurance_regression.py
 
 ## **Results & Observations**
 - **Iris Dataset:** A strong correlation exists between `petal_length` and `petal_width`, making it suitable for simple linear regression.
-- **Insurance Dataset:** The model shows a strong relationship between `charges` and `smoker` status, BMI, and age, highlighting key factors influencing medical costs.
+- **Insurance Dataset:** The model shows a strong relationship between `charges` and `smoker` status, sex, and region, highlighting key factors influencing medical costs.
 
 ---
 
